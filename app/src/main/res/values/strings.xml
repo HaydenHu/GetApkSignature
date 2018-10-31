@@ -2,6 +2,40 @@
 <resources>
 
     <string name="app_name">GAS</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="about">关于</string>
+	<string name="summary">
+		<html>
+			<body>
+				<h1 style="text-align:center">软件简介</h1>\n\n
+				<ul>
+					<li>
+						<b>GAS工具能够帮你做什么？</b>\n
+					</li>
+					<p style="margin-left:40px">
+						GAS工具是用于获取已安装或者未安装APK签名的小工具，它能得到应用的签名字符串和签名的MD5值。
+						使用本工具可以辅助手动去除APK应用签名验证，研究软件安全！\n
+					</p>
+					<li>
+						<b>使用什么开发的GAS工具?</b>\n
+					</li>
+					<p style="margin-left:40px">
+						本工具使用AIDE安卓版在我的手机上开发完成，后期升级和维护也使用AIDE来做！\n
+					</p>
+					<li>
+						<b>如何使用GAS工具？</b>\n
+					</li>
+					<p style="margin-left:40px">
+						软件使用很简单，如果你已经安装了应用，请使用第一个文本输入框输入你已经安装的APK软件的包名，如AIDE的包名:"com.aide.ui"，
+						然后点"获取已安装APK签名"按钮即可。
+						第二个文本输入框用于输入APK安装包的路径(绝对路径)，然后点击"获取APK安装包的路径"按钮即可。
+						最后长按获取到的签名，会自动复制到系统剪切板。\n\n
+					</p>
+					<b>如有任何疑问或者意见反馈请点击菜单中的一键加群按钮，加入我们的QQ群学习交流！</b>\n\n
+				</ul>
+			</body>
+		</html>
+	</string>
+
+
 
 </resources>

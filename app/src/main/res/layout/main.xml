@@ -3,7 +3,59 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:gravity="center">
+	android:orientation="vertical"
+	android:gravity="center_horizontal">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:id="@+id/EditTextPackageName"
+		android:hint="com.aide.ui"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/BtnPackageName"
+		android:text="获取已安装APK签名"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:id="@+id/EditTextPath"
+		android:gravity="center_vertical"
+		android:hint="/storage/0/1.apk"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/BtnPath"
+		android:text="获取未安装APK签名"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="签名信息"
+		android:id="@+id/TextViewInfo"
+		android:maxEms="20"
+		android:ellipsize="end"
+		android:lines="10"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="10dp"
+		android:background="@drawable/textview_border"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="签名MD5"
+		android:lines="5"
+		android:maxEms="20"
+		android:ellipsize="end"
+		android:id="@+id/TextViewMD5"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="10dp"
+		android:background="@drawable/textview_border"/>
 
 </LinearLayout>
 
